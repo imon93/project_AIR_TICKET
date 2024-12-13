@@ -1,0 +1,409 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AIR TICKET BOOKING</title>
+
+    <!-- CSS LINK -->
+    <link rel="stylesheet" href="assets/css/all.min.css"> 
+    <link rel="stylesheet" href="assets/css/boxicons.min.css">
+    <link rel="stylesheet" href="assets/css/style.css"> 
+    <!-- CSS LINK END -->
+</head>
+<body>
+    
+    <!-- ======= PRELOADER AREA ======= -->
+    <div class="preloader_area">
+        <div class="loader"></div>
+    </div> 
+    <!-- ======= PRELOADER AREA END ======= -->
+
+
+    <!-- ======= BACK TO TOP BTN AREA ======= -->
+    <button class="back_to_top btn btn-primary">
+        <i class="fa-solid fa-angles-up"></i>
+    </button> 
+    <!-- ======= BACK TO TOP BTN AREA END ======= -->
+
+
+    <!-- ======= MENUBAR AREA ======= -->
+    <header class="header">
+        <div class="logo">
+            <a href="#">Fly <span>Aviation</span></a>
+        </div>
+
+        <input type="checkbox" id="check">
+        <label for="check" class="icons">
+            <i class="fa-solid fa-bars-staggered" id="bar_icon"></i>
+            <i class="fa-solid fa-x" id="close_icon"></i>
+        </label>
+
+        <nav class="navbar">
+            <a href="index.html" style="--i:0">Home</a>
+            <a href="#plan" style="--i:1">Plan</a>
+            <a href="#offers" style="--i:2">Offers</a>
+            <a href="#seats" style="--i:3">Seats</a>
+            <a href="#destination" style="--i:4">Destinations</a>
+
+            <button class="menu_btn">Contact</button>
+        </nav>
+    </header> 
+    <!-- <nav>
+        <div class="nav_logo">Fly <span>Aviation</span></div>
+
+        <ul class="nav_links">
+            <li class="link"><a href="#home">Home</a></li>
+            <li class="link"><a href="#about">About</a></li>
+            <li class="link"><a href="#offers">Offers</a></li>
+            <li class="link"><a href="#seats">Seats</a></li>
+            <li class="link"><a href="#destinations">Destinations</a></li>
+        </ul>
+
+        <button class="btn">Contact</button>
+    </nav>  -->
+    <!-- ======= MENUBAR AREA END ======= -->
+
+
+    <!-- ======= HEADER AREA ======= -->
+    <section class="hero_area">
+        <div class="section_container hero_container">
+            <h1 class="section_header">Find And Book <br>A Great Experience</h1>
+            <!-- <img src="assets/img/header.jpg" alt="hero_img"> -->
+        </div>
+    </section> 
+    <!-- ======= HEADER AREA END ======= -->
+
+
+    <!-- ======= BOOKING AREA ======= -->
+    <section class="booking_area" id="destination">
+        <div class="section_container booking_container">
+            <div class="booking_nav">
+                <span class="eClass">Economy Class</span>
+                <span class="bClass">Business Class</span>
+                <span class="fClass">First Class</span>
+            </div>
+
+            <form>
+                <div class="form_group">
+                    <span><i class="fa-solid fa-location-dot fa-bounce"></i></span>
+
+                    <div class="input_content">
+                        <div class="input_group">
+                            <!-- <input type="text"> -->
+                            <input type="text" name="place" aria-label="search" onfocus="(this.type='place')" onblur="(this.type='text')" required>
+                            <label>Location</label>
+                        </div>
+
+                        <p>Where are you goung?</p>
+                    </div>
+                </div>
+
+                <div class="form_group">
+                    <span><i class="fa-regular fa-user fa-beat"></i></span>
+
+                    <div class="input_content">
+                        <div class="input_group">
+                            <input type="number">
+                            <label>Travellers</label>
+                        </div>
+
+                        <p>Add guests</p>
+                    </div>
+                </div>
+
+                <div class="form_group">
+                    <span><i class="fa-solid fa-calendar fa-fade"></i></span>
+
+                    <div class="input_content">
+                        <div class="input_group">
+                            <!-- <input type="date"> -->
+                            <input class="form-control me-2" name="date" type="text" aria-label="search" onfocus="(this.type='date')" onblur="(this.type='text')" required>
+                            <label>Departure</label>
+                        </div>
+
+                        <p>Add date</p>
+                    </div>
+                </div>
+
+                <div class="form_group">
+                    <span><i class="fa-solid fa-calendar fa-fade"></i></span>
+
+                    <div class="input_content">
+                        <div class="input_group">
+                            <!-- <input type="date"> -->
+                            <input class="form-control me-2" name="date" type="text" aria-label="search" onfocus="(this.type='date')" onblur="(this.type='text')" required>
+                            <label>Return</label>
+                        </div>
+
+                        <p>Add date</p>
+                    </div>
+                </div>
+
+                <button class="booking_btn"><i class="fa-solid fa-magnifying-glass"></i></button>
+            </form>
+        </div>
+    </section> 
+    <!-- ======= BOOKING AREA END ======= -->
+
+
+    <!-- ======= PLAN AREA ======= -->
+    <section class="plan_area" id="plan">
+        <div class="section_container plan_container">
+            <p class="subheader">TRAVEL SUPPORT</p>
+            <h2 class="section_header">Plan your travel with confidence</h2>
+            <p class="description">
+                Find help with your bookings and travel plans, and seee what to expect
+                along your journey.
+            </p>
+
+            <div class="plan_grid">
+                <div class="plan_content">
+                    <span class="number">01</span>
+                    <h4>Travel Requirements for Dubai</h4>
+                    <p>
+                        Stay informed and prepared for your trip to Dubai with essential
+                        travel requirements, ensuring a smooth and hassle-free experience in this vibrant and captivating city.
+                    </p>
+
+                    <span class="number">02</span>
+                    <h4>Multi-risk travel insurance</h4>
+                    <p>
+                        Comprehensive protection for your peace of mind, covering a range of potential travel risks and unexpected situations.
+                    </p>
+
+                    <span class="number">03</span>
+                    <h4>Travel Requirements by destinations</h4>
+                    <p>
+                        Stay informed and plan your trip with ease, as we provide up-to-date information on travel requirements specific to your desired destinations.
+                    </p>
+                </div>
+
+                <div class="plan_img">
+                    <img src="assets/img/plan-1.jpg" alt="Plan">
+                    <img src="assets/img/plan-2.jpg" alt="Plan">
+                    <img src="assets/img/plan-3.jpg" alt="Plan">
+                </div>
+            </div>
+        </div>
+    </section> 
+    <!-- ======= PLAN AREA END ======= -->
+
+
+    <!-- ======= MEMORIES AREA ======= -->
+    <section class="memori_area">
+        <div class="section_container memories_container">
+            <div class="memories_header">
+                <h2 class="section_header">
+                    Travel to make memories all around the world
+                </h2>
+
+                <button class="view_all">View All</button>
+            </div>
+
+            <div class="memories_grid">
+                <div class="memories_card">
+                    <span><i class="fa-solid fa-calendar-days" style='color:#ffffff'></i></span>
+                    <h4>Book & relax</h4>
+                    <p>
+                        With "Book and Relax," you can sit back, unwind, and enjoy the
+                        journey while we take care of everything else.
+                    </p>
+                </div>
+
+                <div class="memories_card">
+                    <span><i class='bx bx-check-shield' style='color:#ffffff'></i></span>
+                    <h4>Smart Checklist</h4>
+                    <p>
+                        Introducing Smart Checklist with us, the innovative solution
+                        revolutionizing the way you travel with our airline.
+                    </p>
+                </div>
+
+                <div class="memories_card">
+                    <span><i class='bx bx-bookmark-minus' style='color:#ffffff'></i></span>
+                    <h4>Save More</h4>
+                    <p>
+                        From discounted ticket prices to exclusive promotions and deals,
+                        we prioritize affordability without compromising on quality.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section> 
+    <!-- ======= MEMORIES AREA END ======= -->
+
+
+    <!-- ======= LOUNGE AREA ======= -->
+    <section class="lounge_area">
+        <div class="section_container lounge_container">
+            <div class="lounge_img">
+                <img src="assets/img/lounge-1.jpg" alt="lounge">
+                <img src="assets/img/lounge-2.jpg" alt="lounge">
+            </div>
+
+            <div class="lounge_content">
+                <h2 class="section_header">Unaccompanied Minor Lounge</h2>
+
+                <div class="lounge_grid">
+                    <div class="lounge_details">
+                        <h4>Experience Tranquility</h4>
+                        <p>
+                            Serenity Haven offers a tranquil escape, featuring comfortable
+                            seating, calming ambiance, and attentive service.
+                        </p>
+                    </div>
+
+                    <div class="lounge_details">
+                        <h4>Elevate Your Experience</h4>
+                        <p>
+                            Designed for discerning travelers, this exclusive lounge offers
+                            premium amenities, assistance, and private workspaces.
+                        </p>
+                    </div>
+
+                    <div class="lounge_details">
+                        <h4>A Welcoming Space</h4>
+                        <p>
+                            Creating a family-friendly atmosphere, The Family Zone is the
+                            perfect haven for parents and children.
+                        </p>
+                    </div>
+
+                    <div class="lounge_details">
+                        <h4>A Culinary Delight</h4>
+                        <p>
+                            Immerse yourself in a world of flavors, offering international
+                            cuisines, gourmet dishes, and carefully curated beverages.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section> 
+    <!-- ======= LOUNGE AREA END ======= -->
+
+
+    <!-- ======= TRAVELERS AREA ======= -->
+    <section class="traveller_area">
+        <div class="section_container travellers_container">
+            <h2 class="section_header">Best travellers of the month</h2>
+
+            <div class="travellers_grid">
+                <div class="travellers_card">
+                    <img src="assets/img/traveller-1.jpg" alt="traveller">
+
+                    <div class="traveller_card_content">
+                        <img src="assets/img/client-1.jpg" alt="client">
+                        <h4>Emily Johnson</h4>
+                        <p>Dubai</p>
+                    </div>
+                </div>
+
+                <div class="travellers_card">
+                    <img src="assets/img/traveller-2.jpg" alt="traveller">
+
+                    <div class="traveller_card_content">
+                        <img src="assets/img/client-2.jpg" alt="client">
+                        <h4>David Smith</h4>
+                        <p>Paris</p>
+                    </div>
+                </div>
+
+                <div class="travellers_card">
+                    <img src="assets/img/traveller-3.jpg" alt="traveller">
+
+                    <div class="traveller_card_content">
+                        <img src="assets/img/client-3.jpg" alt="client">
+                        <h4>Olivia Brown</h4>
+                        <p>Singapore</p>
+                    </div>
+                </div>
+
+                <div class="travellers_card">
+                    <img src="assets/img/traveller-4.jpg" alt="traveller">
+
+                    <div class="traveller_card_content">
+                        <img src="assets/img/client-4.jpg" alt="client">
+                        <h4>Daniel Taylor</h4>
+                        <p>Malaysia</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section> 
+    <!-- ======= TRAVELERS AREA END ======= -->
+
+
+    <!-- ======= SUBSCRIBE AREA ======= -->
+    <section class="subscribe_area">
+        <div class="section_container subscribe_container">
+            <h2 class="section_header">Subscribe newsletter & get latest news</h2>
+
+            <form class="subscribe_form">
+                <input type="text" placeholder="Enter Your Email Here">
+                <button class="subscribe_btn">Subscribe</button>
+            </form>
+        </div>
+    </section> 
+    <!-- ======= SUBSCRIBE AREA END ======= -->
+
+
+    <!-- ======= FOOTER AREA ======= -->
+    <footer class="footer_area">
+        <div class="section_container footer_container">
+            <div class="footer_col">
+                <h3>fly <span>aviation</span></h3>
+
+                <p>
+                    Where Excellence Takes Flight. With a strong commitment to customer
+                    satisfaction and a passion for air travel, Flivan Airlines offers
+                    exceptional service and seamless journeys.
+                </p>
+
+                <p>
+                    From friendly smiles to state-of-the-art aircraft, we connect the
+                    world, ensuring safe, comfortable, and unforgettable experiences.
+                </p>
+            </div>
+
+            <div class="footer_col">
+                <h4>INFORMATION</h4>
+
+                <a href="#">Home</a>
+                <a href="#">About</a>
+                <a href="#">Offers</a>
+                <a href="#">Seats</a>
+                <a href="#">Destinations</a>
+            </div>
+
+            <div class="footer_col">
+                <h4>CONTACT</h4>
+
+                <a href="tel:+8801000000000">+8801000000000</a>
+                <a href="mailto:example12@gmail.com">example12@gmail.com</a>
+                <a href="#">Support</a>
+                <a href="#">Media</a>
+                <a href="#">Socials</a>
+            </div>
+        </div>
+
+        <div class="section_container footer_bar">
+            <p>Copyright &copy;2025. All Right Reserved. | Edited By IMON</p>
+            <div class="socials">
+                <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+                <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                <a href="#"><i class="fa-brands fa-youtube"></i></a>
+            </div>
+        </div>
+    </footer> 
+    <!-- ======= FOOTER AREA END ======= -->
+
+    <!-- JS LINK -->
+    <script src="assets/js/jquery-1.12.4.min.js"></script>
+    <script src="assets/js/script.js"></script> 
+    <!-- JS LINK END -->
+</body>
+</html>
